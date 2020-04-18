@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row
+}
+.cell {
+  width: 25%;
+  padding: 10px 0px 10px 0px 
+}
+div.row:nth-of-type(2n-1){
+  background-color:#8080802b
+}
+.row.header {
+  margin-bottom: 20px;
+}
+
+.checkoutButton {
+  margin-top: 45px;
+  font-size: 40px;
+  width: 207px;
+
+}
